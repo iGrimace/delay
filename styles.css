@@ -19,6 +19,12 @@ body {
   margin: 0;
 }
 
+.artikel img {
+  max-width: 100%;
+  height: auto;
+  width: 100px; /* Specificeer de breedte */
+  height: 100px; /* Specificeer de hoogte */
+}
 .centraal-gedeelte {
   display: flex;
   flex-wrap: wrap;
