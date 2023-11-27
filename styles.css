@@ -43,7 +43,7 @@ body
 .artikel {
   flex: 1;
   margin: 10px;
-  box-sizing: border-box; /* Voeg dit toe om ervoor te zorgen dat de marges binnen de flex-container vallen */
+  box-sizing: border-box;
 }
 
 .footer {
@@ -53,13 +53,12 @@ body
   color: white;
 }
 
-/* Mediaquery voor responsiveness */
 @media screen and (max-width: 768px) {
   .centraal-gedeelte {
     flex-direction: column;
   }
 
   .rechterdeel {
-    flex: 12; /* Op kleinere schermen neemt het rechterdeel de volledige breedte in */
+    flex: 12;
   }
 }
