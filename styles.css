@@ -22,8 +22,8 @@ body {
 .artikel img {
   max-width: 100%;
   height: auto;
-  width: 100px; /* Specificeer de breedte */
-  height: 100px; /* Specificeer de hoogte */
+  width: 100px;
+  height: 100px; 
 }
 .centraal-gedeelte {
   display: flex;
