@@ -4,7 +4,7 @@ body
 }
 
 .header {
-  background-image: url('achtergrondfoto.jpg'); /* Vervang 'achtergrondfoto.jpg' door de werkelijke bestandsnaam van je afbeelding */
+  background-image: url('achtergrondafbeelding.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
