@@ -37,6 +37,7 @@ body {
 .artikel {
   flex: 1;
   margin: 10px;
+  box-sizing: border-box; /* Voeg dit toe om ervoor te zorgen dat de marges binnen de flex-container vallen */
 }
 
 .footer {
