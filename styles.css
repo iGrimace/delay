@@ -36,7 +36,7 @@ body {
 
 .rechterdeel {
   flex: 9;
-  background-color: #e0e0e0;
+  background-color: #0000FF;
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
