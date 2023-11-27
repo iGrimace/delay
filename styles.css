@@ -1,14 +1,19 @@
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
+body
+{
+  font-family: 'Helvetica', sans-serif; /* Vervang 'Helvetica' door het gewenste lettertype voor de body */
 }
 
 .header {
-  text-align: center;
-  padding: 50px;
+  background-image: url('achtergrondfoto.jpg'); /* Vervang 'achtergrondfoto.jpg' door de werkelijke bestandsnaam van je afbeelding */
   background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 20px;
   color: white;
+}
+
+.header h1 {
+  font-family: 'Arial', sans-serif; /* Vervang 'Arial' door het gewenste lettertype voor de header */
 }
 
 .centraal-gedeelte {
