@@ -4,7 +4,7 @@ body
 }
 
 .header {
-  background-image: url('achtergrondafbeelding.jpg');
+  background-image: url('afbeeldingen/achtergrondafbeelding.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
