@@ -6,9 +6,10 @@ body {
 
 .header {
   text-align: center;
-  color: white;
   padding: 50px;
+  background-image: url('achtergrondfoto.jpg');
   background-size: cover;
+  color: white;
 }
 
 .centraal-gedeelte {
