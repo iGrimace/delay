@@ -19,6 +19,11 @@ body {
   margin: 0;
 }
 
+.artikel {
+  box-sizing: border-box;
+  text-align: left;
+  display: flex;
+}
 .artikel img {
   max-width: 100%;
   height: auto;
