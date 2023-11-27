@@ -7,7 +7,6 @@ body {
 .header {
   text-align: center;
   padding: 50px;
-  background-image: url('achtergrondfoto.jpg');
   background-size: cover;
   color: white;
 }
@@ -45,4 +44,15 @@ body {
   padding: 10px;
   background-color: #333;
   color: white;
+}
+
+/* Mediaquery voor responsiveness */
+@media screen and (max-width: 768px) {
+  .centraal-gedeelte {
+    flex-direction: column;
+  }
+
+  .rechterdeel {
+    flex: 12; /* Op kleinere schermen neemt het rechterdeel de volledige breedte in */
+  }
 }
