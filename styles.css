@@ -1,10 +1,10 @@
 /* styles.css */
 
-/* Basisstijlen voor alle schermen */
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -21,16 +21,35 @@ body {
   margin: 0;
 }
 
+.centraal-gedeelte {
+  display: flex;
+  flex-wrap: wrap; /* Laat de flex-items naar de volgende rij gaan als er niet genoeg ruimte is */
+  justify-content: center; /* Centreert de flex-items horizontaal */
+}
+
+.linkerdeel {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.rechterdeel {
+  flex: 1;
+  background-color: #e0e0e0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 .artikel {
   box-sizing: border-box;
   text-align: left;
-  display: flex;
+  margin-bottom: 20px;
 }
 
 .artikel img {
-  max-width: 100px;
+  max-width: 100%;
   height: auto;
-  margin-left: 10px;
 }
 
 /* Mobiele stijlen */
@@ -40,6 +59,6 @@ body {
   }
 
   .linkerdeel, .rechterdeel {
-    flex: 1; /* Neem volledige breedte in op kleinere schermen */
+    flex: 100%; /* Neem volledige breedte in op kleinere schermen */
   }
 }
