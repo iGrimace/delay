@@ -49,7 +49,7 @@ body {
 }
 
 .artikel img {
-  max-width: 100px; /* Aangepaste breedte voor de afbeeldingen */
+  max-width: 200px; /* Aangepaste breedte voor de afbeeldingen */
   height: auto;
   margin-left: 20px; /* Ruimte tussen de tekst en de afbeelding */
 }
