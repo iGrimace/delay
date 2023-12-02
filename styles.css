@@ -1,7 +1,5 @@
-/* styles.css */
-
 body {
-  font-family: 'Open Sans', sans-serif; /* Extern lettertype toegevoegd */
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -23,7 +21,7 @@ body {
 
 .centraal-gedeelte {
   display: flex;
-  flex-wrap: wrap; /* Toegevoegd voor mobile-first responsiveness */
+  flex-wrap: wrap; 
 }
 
 .linkerdeel {
@@ -44,23 +42,23 @@ body {
 .artikel {
   margin-bottom: 20px;
   display: flex;
-  flex-direction: row; /* Plaats de afbeelding rechts van de tekst */
-  align-items: flex-start; /* Aligneer de inhoud aan de bovenkant */
+  flex-direction: row; 
+  align-items: flex-start;
 }
 
 .artikel img {
-  max-width: 200px; /* Aangepaste breedte voor de afbeeldingen */
+  max-width: 200px; 
   height: auto;
-  margin-left: 20px; /* Ruimte tussen de tekst en de afbeelding */
+  margin-left: 20px; 
 }
 
 .artikel-text {
   display: flex;
-  flex-direction: column; /* Stapel de tekst boven elkaar */
+  flex-direction: column; 
 }
 
 .artikel h2 {
-  margin-bottom: 10px; /* Extra ruimte tussen h2 en p */
+  margin-bottom: 10px; 
 }
 
 .footer {
@@ -70,13 +68,13 @@ body {
   padding: 10px;
 }
 
-/* Mediaquery voor schermen kleiner dan 600px breedte */
+
 @media screen and (max-width: 600px) {
   .centraal-gedeelte {
-    flex-direction: column; /* Stapel de linkerdeel en rechterdeel op elkaar voor kleinere schermen */
+    flex-direction: column;
   }
 
   .linkerdeel, .rechterdeel {
-    flex: 1; /* Neem volledige breedte in op kleinere schermen */
+    flex: 1;
   }
 }
