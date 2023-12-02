@@ -54,8 +54,12 @@ body {
   margin-left: 20px; /* Ruimte tussen de tekst en de afbeelding */
 }
 
-.artikel p {
+.artikel-text {
   flex: 1; /* Laat de tekst de beschikbare ruimte innemen naast de afbeelding */
+}
+
+.artikel h2 {
+  margin-bottom: 10px; /* Extra ruimte tussen h2 en p */
 }
 
 .footer {
