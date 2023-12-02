@@ -45,7 +45,7 @@ body {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row; /* Plaats de afbeelding rechts van de tekst */
-  align-items: center; /* Centreer de inhoud verticaal */
+  align-items: flex-start; /* Aligneer de inhoud aan de bovenkant */
 }
 
 .artikel img {
@@ -55,7 +55,8 @@ body {
 }
 
 .artikel-text {
-  flex: 1; /* Laat de tekst de beschikbare ruimte innemen naast de afbeelding */
+  display: flex;
+  flex-direction: column; /* Stapel de tekst boven elkaar */
 }
 
 .artikel h2 {
