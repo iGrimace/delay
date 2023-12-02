@@ -43,11 +43,19 @@ body {
 
 .artikel {
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: row; /* Plaats de afbeelding rechts van de tekst */
+  align-items: center; /* Centreer de inhoud verticaal */
 }
 
 .artikel img {
-  max-width: 100%;
+  max-width: 100px; /* Aangepaste breedte voor de afbeeldingen */
   height: auto;
+  margin-left: 20px; /* Ruimte tussen de tekst en de afbeelding */
+}
+
+.artikel p {
+  flex: 1; /* Laat de tekst de beschikbare ruimte innemen naast de afbeelding */
 }
 
 .footer {
